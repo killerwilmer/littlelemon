@@ -1,10 +1,10 @@
 from django.contrib import admin
 
-from restaurant.models import Booking, Menu
+from restaurant.models import Booking, MenuItem
 
 # Register your models here.
 admin.site.register(
-    Menu,
+    MenuItem,
 )
 
 admin.site.register(
