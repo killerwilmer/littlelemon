@@ -26,5 +26,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('restaurant/', include('restaurant.urls')),
+    path('restaurant/menu/', include('restaurant.urls')),
     path('', include(router.urls)),
 ]
